@@ -11,8 +11,8 @@ public class PolynomialMultiplication {
         curtask.addJarFile("FFT.jar");
         AMInfo info = new AMInfo(curtask, null);
 
-        ArrayList<Complex> a = readPolynomial("a1000.txt");
-        ArrayList<Complex> b = readPolynomial("b1000.txt");
+        ArrayList<Complex> a = readPolynomial("a2000.txt");
+        ArrayList<Complex> b = readPolynomial("b2000.txt");
 
         int padSize = 2 * nextPowerOf2(Math.max(a.size(), b.size()));
 
